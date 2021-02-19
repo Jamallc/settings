@@ -1,0 +1,97 @@
+{
+    "python.languageServer": "Microsoft",
+
+    "explorer.confirmDelete": false,
+    "typescript.tsdk": "",
+    "editor.columnSelection": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.8.10-hotspot",
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "sync.gist": "e29a97cbdab4fbd4590ab67e481687a0",
+    "editor.tabSize": 2,
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.eol": "\r\n",
+    "prettier.endOfLine": "crlf",
+
+    
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.validate.enable": false,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "javascript": "javascriptreact"
+    },
+    "editor.rulers": [
+        79,
+        120
+    ],
+    "git.enableSmartCommit": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.shell.linux": "zsh",
+    "javascript.suggest.autoImports": false,
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": false,
+    "editor.renderLineHighlight": "gutter",
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "toggleFileEventLogging": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "./venv/bin/python -u",
+        "javascript": "node",
+        "php": "php",
+        "perl": "perl",
+        "shellscript": "bash"
+    },
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ],
+    "python.pythonPath": "/usr/bin/python3",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.editor.enablePreview": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    "workbench.startupEditor": "newUntitledFile"
+}

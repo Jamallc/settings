@@ -46,7 +46,7 @@
     },
     "editor.rulers": [
         79,
-        120
+        120,
     ],
     "git.enableSmartCommit": true,
     "terminal.integrated.copyOnSelection": true,
@@ -74,7 +74,7 @@
         "javascript": "node",
         "php": "php",
         "perl": "perl",
-        "shellscript": "bash"
+        "shellscript": "bash",
     },
     "files.associations": {
         "*.html": "html",
@@ -84,14 +84,16 @@
     },
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django",
-        "--errors-only"
+        "--errors-only",
     ],
     "python.pythonPath": "/usr/bin/python3",
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "workbench.editor.enablePreview": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.fixAll": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
 }
